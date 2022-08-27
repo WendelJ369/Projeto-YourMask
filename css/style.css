@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.clear{
+    clear: both;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+header{
+    padding: 13px 0;
+    background-color: rgb(255,255,255);
+}
+.logo{
+    float: left;
+}
+.logo h2{
+    font-weight: normal;
+    font-size: 23px;
+}
+nav.menu-desktop li.selected{font-weight: bold;}
+
+nav.menu-desktop{
+    float: right;
+}
+nav.menu-desktop ul{
+    position: relative;
+    top: 8px;
+}
+
+nav.menu-desktop li{
+    font-weight: lighter;
+    padding: 0 20px;
+    display: inline-block;
+}
+nav.menu-desktop a{
+    text-decoration: none;
+    color: black;
+}
+nav.menu-desktop a:hover{
+    text-decoration: underline;
+}
+.banner{
+    width: 100%;
+    height: 422px;
+    background-image: url(../img/yourmask.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.head1{
+    padding: 20px 0;
+    background-color: #770423;
+}
+.t-conteudo1{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.conteudo1{
+    width: 100%;
+    height: 450px;
+    padding: 20px 0;
+    background-color: #440415;
+}
+.line-text{
+    color: rgb(255,255,255);
+}
+.icons-conteudo1{
+    margin-top: 30px;
+}
+.box-icon-single{
+    float: left;
+    width: 33.3%;
+    margin-top: 75px;
+    padding: 0 40px;
+}
+.box-icon-single2{
+    text-align: center;
+    margin-top: 75px;
+    padding: 0 40px;
+}
+.box-icon-single p{
+    font-weight: lighter;
+    font-size: 20px;
+    font-style: inherit;
+    color: aliceblue;
+}
+.box-icon-single a{
+    text-decoration: none;
+    color: black;
+}
+.box-icon-single a:hover{
+    text-decoration: underline;
+}
+.box-icon-single h2{
+    text-align: center;
+}
+.parallax1{
+    background-image: url(../img/mask2.jpg);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.box-icon-single2 p{
+    font-weight: lighter;
+    font-size: 20px;
+    font-style: inherit;
+    color: aliceblue;
+}
+.parallax2{
+    background-image: url(../img/mask3.jpg);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.parallax2 h2{
+    text-align: center;
+    padding-top: 180px;
+    font-weight: normal;
+    font-size: 25px;
+}
+.rodape{
+    width: 100%;
+    height: 300px;
+}
+.box-social{
+    float: left;
+    width: 33.3%;
+    margin-top: 75px;
+    padding: 0 40px;
+    text-align: center;
+}
+.box-social a{
+    text-decoration: none;
+    color: black;
+}
+.box-social a:hover{
+    text-decoration: underline;
+}
+.direitos{
+    text-align: center;
+    margin-top: 100px;
+}
+@media screen and (max-width: 768px){
+    .box-icon-single{
+        width: 100%;
+    }
+}
